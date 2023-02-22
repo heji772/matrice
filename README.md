@@ -1,4 +1,4 @@
-c++ skripta 
+
 Program je napisan u programskom jeziku C++(source python) koristeći OpenCV biblioteke. Program snima videozapis s zadane kamerice i stvara prozor naziva "slika". Zatim stvara trake za praćenje kako bi kontrolirao položaj okvira i vrijednosti praga za obradu slike.
 
 Unutar petlje while, program čita okvire s kamere i dobiva položaje traka. Zatim crta pravokutni okvir s četiri linije oko odabrane područja okvira. Program stvara klon okvira, a okvir se smanjuje s kloniranog okvira pomoću položaja i veličine okvira.
